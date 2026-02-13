@@ -27,8 +27,7 @@
 ## 🖥 ИНТЕРФЕЙС (CRYSTAL UI)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Mellonty-razran/Z-TOOL-ULTIMATE/main/assets/qualcomm.png" width="45%" />
-  <img src="https://raw.githubusercontent.com/Mellonty-razran/Z-TOOL-ULTIMATE/main/assets/mtk.png" width="45%" />
+  <img src="assets/preview.png" width="90%" alt="Z-TOOL Interface">
 </p>
 
 ---
