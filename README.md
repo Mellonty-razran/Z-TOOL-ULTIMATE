@@ -25,7 +25,11 @@
 ---
 
 ## 🖥 ИНТЕРФЕЙС (CRYSTAL UI)
-*Тут скоро будут сочные скриншоты твоего интерфейса!*
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Mellonty-razran/Z-TOOL-ULTIMATE/main/assets/qualcomm.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/Mellonty-razran/Z-TOOL-ULTIMATE/main/assets/mtk.png" width="45%" />
+</p>
 
 ---
 
