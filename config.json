@@ -1,0 +1,45 @@
+{
+  "version": "1.0 OFFICIAL RELEASE",
+  "author": "CryoSlayer",
+  "brands": {
+    "SAMSUNG": ["Galaxy A01", "Galaxy A03s", "Galaxy A10", "Galaxy A12", "Galaxy A32", "Galaxy A52", "Galaxy S21", "Galaxy S22", "Galaxy S23 Ultra"],
+    "XIAOMI": ["Redmi 9A", "Redmi 10C", "Redmi Note 10 Pro", "Poco X3 Pro", "Poco F4", "Xiaomi 12T"],
+    "REALME/OPPO": ["Realme C11", "Realme C30", "Realme GT Neo", "Oppo A15", "Oppo A54"],
+    "APPLE": ["iPhone 7", "iPhone 8", "iPhone X", "iPhone 11", "iPhone 12", "iPhone 13"]
+  },
+  "ops": {
+    "QUALCOMM (EDL 9008)": [
+      "Read Info (9008)", "Erase FRP", "Factory Reset", "Remove Mi Account", "Unlock Bootloader", "Method: Test Point"
+    ],
+    "MEDIATEK (BROM)": [
+      "Auth Bypass", "Format Data", "Safe Format", "Dump Preloader", "RPMB Backup"
+    ],
+    "ADB / FASTBOOT": [
+      "Read Info (ADB)", "Reboot to EDL", "Bypass FRP (MTP)", "Remove Bloatware", "Get Var All"
+    ],
+    "APPLE (IPSW)": [
+      "Check iOS Status", "Recovery Exit", "DFU Helper"
+    ]
+  },
+  "tooltips": {
+    "Read Info (9008)": "Чтение данных процессора (HWID) и структуры флеш-памяти в режиме 9008. Требуется Test Point!",
+    "Erase FRP": "Удаление блокировки Google Account. Сбрасывает защиту после жесткого сброса.",
+    "Factory Reset": "Полная очистка всех данных пользователя и снятие графического ключа/пароля.",
+    "Remove Mi Account": "Сброс привязки Mi Cloud. Помогает при блокировке на устройствах Xiaomi.",
+    "Unlock Bootloader": "Разблокировка загрузчика для возможности прошивки сторонних Recovery и Root-прав.",
+    "Method: Test Point": "Инструкция: Разберите телефон, замкните сервисные контакты и подключите кабель.",
+    "Auth Bypass": "Отключение защиты SLA/DAA. Позволяет шить MediaTek без официального аккаунта.",
+    "Format Data": "Принудительная очистка раздела userdata через режим BROM.",
+    "Safe Format": "Сброс пароля экрана С СОХРАНЕНИЕМ фото, видео и контактов.",
+    "Dump Preloader": "Создание резервной копии загрузчика. Важно для восстановления 'кирпичей'.",
+    "RPMB Backup": "Бэкап защищенной области памяти. Необходим для сохранения ключей безопасности.",
+    "Read Info (ADB)": "Чтение модели, версии Android, CSC и серийного номера через включенную отладку по USB.",
+    "Reboot to EDL": "Команда для принудительного перевода устройства из режима Fastboot или ADB в режим прошивки 9008.",
+    "Bypass FRP (MTP)": "Метод открытия браузера/YouTube на Samsung через MTP режим для обхода Google.",
+    "Remove Bloatware": "Очистка системы от предустановленного мусора (ненужных системных приложений).",
+    "Get Var All": "Вывод всех переменных Fastboot (версия загрузчика, анти-откат, статус защиты).",
+    "Check iOS Status": "Проверка версии iOS и статуса блокировки активации (iCloud).",
+    "Recovery Exit": "Принудительный вывод Apple устройства из режима 'шнурка' (Recovery Mode).",
+    "DFU Helper": "Инструкция по комбинации кнопок для входа в сервисный режим DFU."
+  }
+}
